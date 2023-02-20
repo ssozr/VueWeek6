@@ -28,6 +28,10 @@ const routes = [
         component: () => import('../views/front/ProductsView.vue')
       }
     ]
+  },
+  {
+    path: '/backlogin',
+    component: () => import('../views/front/BackLogin.vue')
   }
 ]
 
